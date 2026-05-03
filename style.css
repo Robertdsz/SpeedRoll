@@ -1,0 +1,72 @@
+#crs-panel {
+  position: fixed;
+  bottom: 80px;
+  right: 20px;
+  z-index: 999999;
+  background: rgba(15, 15, 20, 0.95);
+  border: 1px solid #f47521;
+  border-radius: 10px;
+  padding: 14px 16px;
+  font-family: sans-serif;
+  color: #fff;
+  min-width: 200px;
+}
+
+#crs-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 12px;
+  font-size: 13px;
+  color: #aaa;
+}
+
+#crs-current {
+  color: #f47521;
+  font-weight: bold;
+  font-size: 15px;
+}
+
+#crs-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.crs-btn {
+  background: rgba(255,255,255,0.08);
+  border: 1px solid rgba(255,255,255,0.15);
+  color: #ccc;
+  border-radius: 6px;
+  padding: 7px 13px;  
+  font-size: 13px;       
+  cursor: pointer;
+}
+
+.crs-btn:hover {
+  background: rgba(244, 117, 33, 0.3);
+  border-color: #f47521;
+  color: #fff;
+}
+
+.crs-btn.crs-active {
+  background: #f47521;
+  border-color: #f47521;
+  color: #fff;
+  font-weight: bold;
+}
+
+#crs-minimize {
+  background: none;
+  border: none;
+  color: #aaa;
+  font-size: 16px;
+  cursor: pointer;
+  padding: 0 4px;
+  line-height: 1;
+  margin-left: 8px;
+}
+
+#crs-minimize:hover {
+  color: #fff;
+}
